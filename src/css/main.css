@@ -174,3 +174,30 @@ border-radius: 16px;
 
 }  
 }
+/* Design Journey */
+.design-section{
+background-color: #43455d;
+background-image: url("/img/design/mob.png");
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size: 100% 200px;
+height: 770px;
+
+}
+.design-text{
+    width: 313px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.design-section {
+        background-color: #43455d;
+        background-image: url("/img/design/desk.png");
+        background-size: 100% 550px;
+height: 1004px;
+    }
+
+    .design-text {
+width: 100%;
+    }
+}
